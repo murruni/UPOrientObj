@@ -1,0 +1,16 @@
+Como agregar una JTable para que se dibuje correctamente:
+
+//Esto va en una clase que extienda de JPanel sino el add se aplica sobre el panel que quiero que tenga la tabla
+JTable tabla = new JTable(miTableModel);
+JScrollPane scroll = new JScrollPane(tabla);
+add(scroll);
+
+
+TP Final Elegido
+3 - Taller Mecanico
+Se debe tener un manejo del stock de las autopartes (filtros, aceites, pastillas de freno, etc).
+También es necesario manejar un historial de las reparaciones de cada auto. 
+Al final de cada reparación es necesario realizar el cobro de la misma.
+
+
+Login para el final admin-admin
